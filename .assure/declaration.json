@@ -9,7 +9,7 @@
   "libraries": [],
   "physical_validation": false,
   "public_routes": [],
-  "registrations_complete": true,
+  "registrations_complete": false,
   "release_allowed": false,
   "schema": "assure.python-auth.declaration/v1",
   "self_approved": false,
