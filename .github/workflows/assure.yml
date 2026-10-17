@@ -8,7 +8,7 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, assure-suite]
     permissions:
       contents: write
       pull-requests: write
