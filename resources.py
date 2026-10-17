@@ -98,3 +98,8 @@ class SecretResource(Resource):
         return {
             'answer': 42
         }
+
+
+class UserExport(Resource):
+    def get(self):
+        return UserModel.return_all()
